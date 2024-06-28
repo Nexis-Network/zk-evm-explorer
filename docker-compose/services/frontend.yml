@@ -9,3 +9,4 @@ services:
     container_name: 'frontend'
     env_file:
       -  ../envs/common-frontend.env
+      -  ../envs/sensitive-frontend.env
